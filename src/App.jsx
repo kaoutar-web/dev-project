@@ -17,6 +17,13 @@ import {
   FaExternalLinkAlt,
   FaGithub,
 } from "react-icons/fa";
+import FitnessImage from '../dist/fitness.PNG';
+import TheKeyImage from '../dist/the key.PNG';
+import SchoolImage from '../dist/school.PNG';
+import RestaurantImage from '../dist/Capture.PNG';
+import JsImage from '../dist/js.PNG';
+import EstateImage from '../dist/estate.PNG';
+import Logo from '../dist/0d246754-c9e3-44ca-bdcd-d1a4d39b3274-removebg-preview.png';
 
 // Composants UI simples
 const Button = ({ children, className = "", variant = "default", size = "default", ...props }) => {
@@ -124,37 +131,37 @@ export default function App() {
       id: 1,
       title: "un site fitness",
       description: "plateforme fitness complète offrant des programmes d'entraînement personnalisés, des suivis de progression et une communauté motivante",
-      imageUrl: "public/fitness.PNG", // Remplacez par votre capture
+      imageUrl: FitnessImage, // Remplacez par votre capture
     },
     {
       id: 2,
       title: "un site immobilier",
       description: "plateforme immobilière avec recherche avancée, cartes interactives et offrant des solutions innovantes qui transforment positivement la vie de nos clients",
-      imageUrl: "public/the key.PNG", // Remplacez par votre capture
+      imageUrl: TheKeyImage, // Remplacez par votre capture
     },
     {
       id: 3,
       title: "school management",
       description: "une plateforme complète de gestion scolaire qui centralise toutes les activités académiques",
-      imageUrl: "public/school.PNG", // Remplacez par votre capture
+      imageUrl: SchoolImage, // Remplacez par votre capture
     },
     {
       id: 4,
       title: "Restaurant",
       description: "Cette plateforme intuitive unifie la gestion des commandes, des réservations, de la cuisine et de la clientèle pour offrir une expérience fluide et professionnelle",
-      imageUrl: "public/Capture.PNG", // Remplacez par votre capture
+      imageUrl: RestaurantImage, // Remplacez par votre capture
     },
     {
       id: 5,
       title: "Quiz App",
       description: " plateforme interactive dédiée à l'apprentissage du JavaScript, des bases aux concepts avancés",
-      imageUrl: "public/js.PNG", // Remplacez par votre capture
+      imageUrl: JsImage , // Remplacez par votre capture
     },
     {
       id: 6,
       title: "site estate",
       description: "un site immobilier moderne et convivial qui met en valeur les propriétés avec des images haute résolution, des descriptions détaillées et des filtres de recherche avancés",
-      imageUrl: "public/estate.PNG", // Remplacez par votre capture
+      imageUrl: EstateImage, // Remplacez par votre capture
     },
   ];
 
@@ -172,8 +179,8 @@ export default function App() {
             className="flex items-center gap-3 text-xl font-bold"
           >
             <img 
-              src="0d246754-c9e3-44ca-bdcd-d1a4d39b3274-removebg-preview.png" 
-              alt="Logo BUILD_a_WEBSITE" 
+              src={Logo} 
+              
               className="h-10 w-auto object-contain"
             />
             <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
@@ -509,7 +516,7 @@ export default function App() {
             <div className="text-center md:text-right">
               <div className="flex justify-center md:justify-end items-center gap-3 mb-4">
                 <img 
-                  src="0d246754-c9e3-44ca-bdcd-d1a4d39b3274-removebg-preview.png" 
+                  src={Logo}
                   alt="Logo BUILD_a_WEBSITE" 
                   className="h-12 w-auto object-contain"
                 />
