@@ -1,20 +1,10 @@
 {
   "name": "dev-project",
-  "version": "0.0.0",
+    "homepage": "https://kaoutar-web.github.io/dev-project",
+
   "private": true,
-  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
-  "homepage": "https://kaoutar-web.github.io/dev-project",
-  "bugs": {
-    "url": "https://github.com/kaoutar-web/dev-project/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kaoutar-web/dev-project.git"
-  },
-  "license": "ISC",
-  "author": "",
+  "version": "0.0.0",
   "type": "module",
-  "main": "eslint.config.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
